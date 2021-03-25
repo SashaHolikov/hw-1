@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="HW2.css">
 </head>
 <body>
     
+    <table>
+<tr>
+    <th>Имя</th> <th>Фамилия</th><th>Телефон</th><th>Email</th>
+</tr>
+<tr>
+    <td>Иван</td><td>Иванов</td><td>333-22-11</td><td>fff@gmail.com</td>
+</tr>
+<tr>
+    <td>Сергей</td>
+    <td>Фокин</td>
+    <td>342-24-34</td>
+    <td>qqq@gmail.com</td>
+</tr>
+<tr>
+    <td>Виталий</td>
+    <td>Молчун</td>
+    <td>345-56-78</td>
+    <td>rrr@gmail.com</td>
+</tr>
+<tr>
+    <td>Дмитрий</td>
+    <td>Сердитый</td>
+    <td>678-98-67</td>
+    <td>ttt@gmail.com</td>
+</tr>
+<tr>
+    <td>Богдан</td>
+    <td>Вечный</td>
+    <td>666-66-66</td>
+    <td>bbb@gmail.com</td>
+</tr>
+<tr>
+    <td>Михаил</td> 
+    <td>Солонин</td>
+    <td>137-77-13</td>
+    <td>mmm@gmail.com</td>
+</tr>
+
+    </table>
+    <P>
+        <b>Не много информации о вас:</b>
+    </P>
+    
+    <form>        
+        <input type = "text" placeholder="Ведите ваше имя">;<br><br> 
+        
+        <input type="text" placeholder="Ведит евашу фамилию">;
+
+    </form><br>
+
+    <form>
+<span><b>Какой ваш пол?</b></span> <br>
+
+<input type="radio" id ="male" name="gender" value="male">
+<label for="male"><b>M</b></label><br>
+<input type="radio" id="famele" name="gender" value="famele">
+<label for="male"><b>Ж</b></label><br>
+    </form>
+    <textarea id ="text" name="text" rows= "5" cols = "15" placeholder= "Ваш коментарий">
+    
+    </textarea> 
+    <div>
+    <label for="town">Выберете город:</label> <br>
+    <select name="town" id="town" aria-placeholder="Выберете город">
+<option value="Odessa">Odessa</option>
+<option value="Dnepr">Dnepr</option>
+<option value="Kharkov">Kharkov</option>
+<option value="Kherson">Kherson</option>
+
+    </select>
+    </div>
+    <div>
+        <p><b>
+        Выберете язык:
+        </b> </p>
+        <form>
+            <input type="checkbox" name="ua"><span>Украинский</span><br>
+            <input type="checkbox" name="Fr"><span>Французский</span><br>
+            <input type="checkbox" name="It"><span>Испанский</span><br>
+        
+        </form>
+    </div>
+    <button type="button">Отправить</button>
 </body>
 </html>
