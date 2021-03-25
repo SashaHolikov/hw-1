@@ -55,12 +55,12 @@
     <form>        
         <input type = "text" placeholder="Ведите ваше имя">;<br><br> 
         
-        <input type="text" placeholder="Ведит евашу фамилию">;
+        <input type="text" placeholder="Ведите вашу фамилию">;
 
     </form><br>
 
     <form>
-<span><b>Какой ваш пол?</b></span> <br>
+<span><b>Укажите ваш пол</b></span> <br>
 
 <input type="radio" id ="male" name="gender" value="male">
 <label for="male"><b>M</b></label><br>
@@ -72,7 +72,8 @@
     </textarea> 
     <div>
     <label for="town">Выберете город:</label> <br>
-    <select name="town" id="town" aria-placeholder="Выберете город">
+    <select name="town" id="town" >
+<option selected value="town" disabled >Выберете город</option>
 <option value="Odessa">Odessa</option>
 <option value="Dnepr">Dnepr</option>
 <option value="Kharkov">Kharkov</option>
