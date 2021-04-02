@@ -8,18 +8,20 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5em;
-  border: 1.5px solid darkgray;
+  margin-top: 1em;
+  border: 1px solid darkgray;
   border-radius: 5px;
   width: 50em;
 }
 table {
   width: 100%;
   text-align: left;
-  border-collapse: collapse;
+  /* border-top: 1px solid darkgrey; */
+  /* border-collapse: collapse; */
+  border-spacing: 0px;
 }
 td {
-  border-top: 1.5px solid darkgray;
+  /* border-top: 1px solid darkgray; */
 }
 th,
 td {
@@ -59,7 +61,7 @@ td.dots {
   background: darkgrey;
   border: 1px solid darkgrey;
   border-radius: 7px;
-  width: 30px;
+  width: 100px;
   height: 30px;
   float: left;
 }
@@ -75,8 +77,8 @@ input[type="text"] {
   outline: none;
   position: relative;
   height: 30px;
-  top: -33px;
-  width: 400%;
+  top: -34px;
+  width: 100%;
   right: -32px;
   border-radius: 7px;
 }
