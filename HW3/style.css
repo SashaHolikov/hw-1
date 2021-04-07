@@ -9,17 +9,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.5em;
-  border: 1px solid darkgrey;
+  border: 1px solid grey;
   border-radius: 5px;
   width: 50em;
 }
-table {
+/* table {
   width: 100%;
   text-align: left;
   border-spacing: 0px;
-  /* border-top: 1px solid darkgrey; */
-  /* border-collapse: collapse; */
-}
+  border-top: 1px solid darkgrey;
+  
+} */
 td {
   border-top: 1px solid darkgrey;
 }
@@ -30,6 +30,15 @@ td {
   color: white;
   height: 35px;
 }
+table,
+tr {
+  border: 1px solid #a0a0a0;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border-spacing: 0px;
+}
+
 .td_second {
   color: rgb(63, 62, 62);
 }
