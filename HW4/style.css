@@ -137,6 +137,14 @@ body {
   top: 785px;
   width: 540px;
   opacity: 0.5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(image/arrow-down-sign-to-navigate.png);
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: center;
+  background-size: 3%;
 }
 #button {
   position: absolute;
