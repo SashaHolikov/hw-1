@@ -156,6 +156,7 @@ body {
   color: #ffffff;
   padding: 0;
   text-align: center;
+  border: none;
 }
 .blok_3 {
   display: block;
@@ -203,6 +204,10 @@ body {
   left: 734px;
   top: 1185px;
 }
+.text_9,
+text_10 {
+  line-height: 25px;
+}
 .icon_2 {
   display: flex;
   justify-content: space-between;
@@ -221,4 +226,8 @@ body {
   position: absolute;
   left: 161px;
   top: 1380px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
