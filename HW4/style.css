@@ -1,5 +1,5 @@
 body {
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   font-size: normal;
   font-weight: normal;
 }
@@ -205,7 +205,7 @@ body {
   top: 1185px;
 }
 .text_9,
-text_10 {
+.text_10 {
   line-height: 25px;
 }
 .icon_2 {
