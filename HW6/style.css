@@ -1,0 +1,52 @@
+.big_blok {
+  display: grid;
+  width: 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 100px);
+  gap: 20px 20px;
+  place-items: center;
+}
+.blok {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+}
+.blok:nth-child(4n-1) {
+  background-color: red !important;
+}
+.blok:nth-child(n + 21) {
+  background-color: blue;
+}
+/* BUTTON */
+.button {
+  background-color: #44d3a8;
+  width: 501px;
+  height: 92px;
+  border: 1px solid #44d3a8;
+  border-radius: 100px;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blok_for_button {
+  width: 1368px;
+  height: 350px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.blok_for_button::before,
+.blok_for_button::after {
+  content: "";
+  border-top: 2px solid #c4c4c4;
+  border-bottom: 2px solid #c4c4c4;
+  width: 200px;
+  height: 8px;
+  margin: 46px;
+}
+.button:hover {
+  background-color: #86e6c9;
+}
