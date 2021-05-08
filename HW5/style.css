@@ -3,6 +3,7 @@
 }
 body {
   background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  overflow-x: hidden;
 }
 /* HEADER */
 .header_section {
